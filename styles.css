@@ -1,0 +1,70 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, p {
+    margin: 0 0 1em 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1200x500');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.about-section, .metrics-section, .how-it-works-section, .services-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.metrics-grid, .steps-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.metric, .step {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
